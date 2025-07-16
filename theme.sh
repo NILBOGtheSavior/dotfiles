@@ -4,17 +4,13 @@ THEME_DIR="$HOME/.config/kitty/profiles"
 CURRENT_LINK="$HOME/.config/kitty/current.conf"
 
 case "$1" in
-  --light)
-    THEME="light.conf"
-    ;;
-  --dark)
-    THEME="dark.conf"
-    ;;
-  --clear)
-    THEME="clear.conf"
-    ;;
+  -n|--default)THEME="default.conf";;
+  -l|--light)THEME="light.conf";;
+  -d|--dark)THEME="dark.conf";;
+  # Additional themes
+  --clear)THEME="clear.conf";;
   *)
-    echo "Usage: theme --light | --dark | --clear"
+    echo "Usage: theme --default -n | --light -l | --dark -d"
     exit 1
     ;;
   esac
