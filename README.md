@@ -1,6 +1,8 @@
-# kitty-morph
+# dotfiles
 
-## Instructions
+## kitty
+
+### Instructions
 
 1. Clone this repository in `~/.config/kitty/`
 
