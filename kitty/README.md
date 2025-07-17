@@ -1,6 +1,4 @@
-# dotfiles
-
-## kitty
+# kitty
 
 ### Instructions
 
